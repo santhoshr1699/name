@@ -1,9 +1,11 @@
-x=input("")
-if(x==a or x==e or x==i or x==o or x==u):
-  print("Vowel")
-elif(x==b or x==c or x==d or x==f or x==g or x==h or x==j or x==k or x==l or x==m or x==n or x==p or x==q or x==r or x==s or x==t or x==v or x==w or x==x or x==y or x==z):
-  print("constant")
+a=('a','e','i','o','u')
+b=('b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z')
+c=input("")
+if(c in a):
+  print("Even")
+elif(c in b):
+  print("Odd")
 else:
-  print("Invalid")
+  print("Invalid") 
   
   
